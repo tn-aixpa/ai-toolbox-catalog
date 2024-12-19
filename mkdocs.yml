@@ -1,0 +1,39 @@
+site_name: AI Toolbox
+
+theme:
+  name: material
+  features:
+    - navigation.expand
+    - navigation.path
+    - content.code.copy
+  palette:
+    # Palette toggle for light mode
+    - scheme: orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+extra_css:
+  - !ENV [USER_STYLESHEETS_COLORS, "stylesheets/colors.css"]
+
+nav:
+  - "index.md"
+  - Categories:
+    - "catalog/app_list.md"
+    - "catalog/ai_list.md"
+    - "catalog/kind_list.md"
+    - "catalog/component_list.md"
+  - "SPEC.md"
+  - "PROJECT.md"
+
+markdown_extensions: 
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
