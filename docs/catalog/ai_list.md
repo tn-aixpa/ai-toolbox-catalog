@@ -4,48 +4,23 @@
 
 <div class="grid cards" markdown>
 
--  __Document Classifier__
+-  {!catalog/tools/document-classifier.md!}
 
-    ---
+-  {!catalog/tools/eurovoc-classifier.md!}
 
-    :material-tag: ``Product Template``
+-  {!catalog/tools/faudit-classifier.md!}
 
-    A generic LLM-based document classifier that can be fine-tuned on arbitrary documents and taxonomies.
+-  {!catalog/tools/redit.md!}
 
+-  {!catalog/tools/llm-pa.md!}
 
-    [:octicons-arrow-right-24: Repo](https://github.com/tn-aixpa/document-classifier){:target="_blank"}
+-  {!catalog/tools/llm-pa-dialog-dataset.md!}
+  
+-  {!catalog/tools/llm-fine-tuner.md!}
+  
+-  {!catalog/tools/rag-template.md!} 
 
--  __EuroVoc Classifier__
-
-    ---
-
-    :material-tag: ``Product``
-
-    Multilingual text classifier based on Bert model and fine-tuned on official EU legal documents (from EUR Lex portal)
-
-    [:octicons-arrow-right-24: Repo](https://github.com/tn-aixpa/eurovoc-classifier){:target="_blank"}
-
--  __Family Audit Classifier__
-
-    ---
-
-    :material-tag: ``Product``
-
-    Multiclass sequence classifier based on BERT base italian, fine-tuned on selected corpora from Municipalities's Family Audit plans.
-
-    [:octicons-arrow-right-24: Repo](https://github.com/FluveFV/faudit-classifier){:target="_blank"}
-
-
--  __Entity Extraction Service__
-
-    ---
-
-    :material-tag: ``Supporting Component``
-
-    REDIT - A relation extraction module for Tint to identify and extract the entity and relation information from  documents.
-
-
-    [:octicons-arrow-right-24: Repo](https://github.com/tn-aixpa/redit){:target="_blank"}
+-  {!catalog/tools/aixpa-first-aid.md!} 
 
 </div>
 
@@ -54,64 +29,43 @@
 
 <div class="grid cards" markdown>
 
--  __Sentinel Tools__
+-  {!catalog/tools/sentinel-tools.md!} 
 
-    ---
+-  {!catalog/tools/rs-tools.md!} 
 
-    :material-tag: ``Supporting Component``
+-  {!catalog/tools/rs-flood.md!} 
 
-    A  wrapper for the Sentinel download and preprocessing routing for the integration with the AIxPA platform.
+-  {!catalog/tools/rs-deforestation.md!} 
 
-
-    [:octicons-arrow-right-24: Repo](https://github.com/tn-aixpa/sentinel-tools){:target="_blank"}
-
-
--  __Flood Detection__
-
-    ---
-
-    :material-tag: ``Product Template``
-
-    A set of analysis tools for the flood detection using remote sensing data.
-
-
-    [:octicons-arrow-right-24: Repo](https://github.com/Munazaa/Flood-Mapping-Case){:target="_blank"}
-
--  __Deforestation__
-
-    ---
-
-    :material-tag: ``Product Template``
-
-    Python implementation for deforestation detection on satellite imagery data.
-
-    [:octicons-arrow-right-24: Repo](https://github.com/KhaterehMeshkini/Deforestation){:target="_blank"}
+-  {!catalog/tools/rs-landsline.md!} 
 
 </div>
 
 ## Audio
 
+<div class="grid cards" markdown>
+
+-  {!catalog/tools/asr-fine-tuning.md!} 
+
+-  {!catalog/tools/early-exit.md!} 
+
+</div>
+
+## Video
 
 <div class="grid cards" markdown>
 
--  __Early Exit ASR__
+-  {!catalog/tools/micromind.md!} 
 
-    ---
+</div>
 
-    :material-tag: ``Product Template``
+## General Purpose
 
-    A project for training and exposing dynamic Conformer models for Automatic Speech Recognition (ASR) using early-exiting training techniques.
+<div class="grid cards" markdown>
 
-    [:octicons-arrow-right-24: Repo](https://github.com/tn-aixpa/audio-early-exit-transformer){:target="_blank"}
+-  {!catalog/tools/nefertem.md!} 
 
--  __WavLM ASR__
+-  {!catalog/tools/dt-model.md!} 
 
-    ---
-
-    :material-tag: ``Product Template``
-
-    Scripts to perform Italian ASR using a WavLM E2E system; LM adaptation is also provided.
-
-    [:octicons-arrow-right-24: Repo](https://github.com/SpeechTechLab/FBK_ASR_public){:target="_blank"}
 
 </div>
